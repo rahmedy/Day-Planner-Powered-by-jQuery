@@ -13,3 +13,5 @@ This is a simple to use Day planner that is powerd by jQuery that allows the use
 
 -This simple interface is showcased  with HTML, CSS and jQuery for a smooth and user freindly experience 
 
+![](images/workingPic.png)
+
