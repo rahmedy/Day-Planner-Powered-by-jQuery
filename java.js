@@ -1,10 +1,9 @@
 // function to update local storage for saved values
 $(document).ready(function () {
 
-  var scheduledHours = [];
-  var availableHours = {};
+ 
   var m = moment();
-  var newDay = moment().hour(0);
+  
   var currentTime = m.hour();
 
 
@@ -76,7 +75,7 @@ $(document).ready(function () {
 
   function hourNumberFromHourString(hourString) {
     switch (hourString) {
-      case "8 AM": return 8;
+      case "8 AM": return 22;
       case "9 AM": return 9;
       case "10 AM": return 10;
       case "11 AM": return 11;
